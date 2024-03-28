@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background-color: rgb(64, 69, 74);
+  color: white; */
+}
+a{
+  text-decoration: none;
+}
+
+.footer { 
+  position: absolute;
+  bottom: 0; 
+  left: 0; 
+  z-index: 10;
+  padding-bottom: 3px;
+}
+
