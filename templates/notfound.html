@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notfound - 404</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-</head>
-<body>
-    <h1>Notfound Page</h1>
-    <h3>Maaf halaman tidak di temukan!</h3>
-    <a href="/" rel="noreferrer">Back To Home</a>
-</body>
-</html>
+{% extends "base.html" %}
+{% block content %}
+<h1>Notfound Page</h1>
+<h3>Maaf halaman tidak di temukan!</h3>
+<a href="/" rel="noreferrer">Back To Home</a>
+{% endblock %}
