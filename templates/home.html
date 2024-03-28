@@ -4,16 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <style>
-        body{
-          text-align: center;
-          font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }  
-      </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <h1>Welcome to Home Page</h1>
     <h3>Example show detail with parameter id:  <a href="./detail/1" rel="noreferrer">Testing</a></h3>
     <p>Page Notfound Example <a href="./detail/" rel="noreferrer">Notfound Page</a></p>
+    <div class="footer">dev: <a href="https://rezweb.my.id" target="_blank" rel="noopener noreferrer">rezweb.my.id</a></div>
 </body>
 </html>
